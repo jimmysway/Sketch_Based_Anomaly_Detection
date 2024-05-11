@@ -17,22 +17,22 @@ This Python project demonstrates a practical implementation of anomaly detection
 
 Clone the repository and navigate into the project directory:
 
-```bash
+```
 git clone [your-repository-url]
 cd kafka
-'''
+```
 
 Set up a Python virtual environment and activate it:
 
-'''
+```
 python -m venv .venv
 source .venv/bin/activate
-'''
+```
 
 Install the required Python dependencies:
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 
 ## Configuration
@@ -44,18 +44,18 @@ Run the main producer and consumer scripts concurrently to simulate the transact
 ### Producer
 To start the transaction producer, run (on windows):
 
-'''
+```
 python main.py getting_started.ini
-'''
+```
 
 
 ### Consumer
 
 To start the transaction consumer and begin anomaly detection, run:
 
-'''
+```
 python consumer.py getting_started.ini --reset
-'''
+```
 The --reset flag resets the consumer's offset to the beginning of the topic.
 
 ### Usage
