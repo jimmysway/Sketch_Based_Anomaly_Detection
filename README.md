@@ -17,7 +17,7 @@ This Python project demonstrates a practical implementation of anomaly detection
 
 Clone the repository and navigate into the project directory:
 
-```bash
+```
 git clone [your-repository-url]
 cd kafka
 '''
